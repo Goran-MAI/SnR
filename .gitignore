@@ -1,0 +1,71 @@
+# =========================
+# Unreal Engine
+# =========================
+
+# Build products
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# VS / Rider / IDE files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.xcodeproj
+*.xcworkspace
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Compiled objects
+*.obj
+*.o
+*.lo
+*.la
+*.al
+*.gch
+*.pch
+
+# Debug / profiler files
+*.pdb
+*.ipdb
+*.iobj
+*.exp
+*.dSYM/
+
+# Logs & temp
+*.log
+*.tmp
+
+# Unreal generated config (optional – siehe unten)
+Saved/Config/
+
+# =========================
+# Unreal Engine Marketplace / Plugins
+# =========================
+
+# Plugin build data
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Packaging output
+# =========================
+Windows/
+Linux/
+Mac/
+Android/
+IOS/
+HTML5/
